@@ -17,5 +17,7 @@ Algoritmo:
 - Inicio el ciclo de búsqueda de la solución: comienzo eligiendo el país con mayor limSinCobertura.
 - Para cada uno de los paises limítrofes de su lista, hago:
   + marco el flag 'cobertura'.
-  + 
-    
+  + para cada uno de los países limítrofes, disminuyo en 1 el contador limSinCobertura.
+  + disminuyo en 1 el contador limSinCobertura.
+- Pongo en cero el contador limSinCobertura.
+- Sigo con el siguiente país que tenga el valor mayor de limSinCobertura.
